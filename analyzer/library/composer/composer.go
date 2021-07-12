@@ -13,9 +13,9 @@ import (
 	"github.com/aquasecurity/go-dep-parser/pkg/composer"
 )
 
-func init() {
-	analyzer.RegisterAnalyzer(&composerLibraryAnalyzer{})
-}
+//func init() {
+//	analyzer.RegisterAnalyzer(&composerLibraryAnalyzer{})
+//}
 
 const version = 1
 

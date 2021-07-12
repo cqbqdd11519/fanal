@@ -13,9 +13,9 @@ import (
 	"github.com/aquasecurity/go-dep-parser/pkg/cargo"
 )
 
-func init() {
-	analyzer.RegisterAnalyzer(&cargoLibraryAnalyzer{})
-}
+//func init() {
+//	analyzer.RegisterAnalyzer(&cargoLibraryAnalyzer{})
+//}
 
 const version = 1
 

@@ -13,9 +13,9 @@ import (
 	"github.com/aquasecurity/go-dep-parser/pkg/npm"
 )
 
-func init() {
-	analyzer.RegisterAnalyzer(&npmLibraryAnalyzer{})
-}
+//func init() {
+//	analyzer.RegisterAnalyzer(&npmLibraryAnalyzer{})
+//}
 
 const version = 1
 

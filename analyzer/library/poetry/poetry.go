@@ -13,9 +13,9 @@ import (
 	"github.com/aquasecurity/go-dep-parser/pkg/poetry"
 )
 
-func init() {
-	analyzer.RegisterAnalyzer(&poetryLibraryAnalyzer{})
-}
+//func init() {
+//	analyzer.RegisterAnalyzer(&poetryLibraryAnalyzer{})
+//}
 
 const version = 1
 

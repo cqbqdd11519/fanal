@@ -13,9 +13,9 @@ import (
 	"github.com/aquasecurity/go-dep-parser/pkg/pipenv"
 )
 
-func init() {
-	analyzer.RegisterAnalyzer(&pipenvLibraryAnalyzer{})
-}
+//func init() {
+//	analyzer.RegisterAnalyzer(&pipenvLibraryAnalyzer{})
+//}
 
 const version = 1
 

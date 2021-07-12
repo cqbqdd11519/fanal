@@ -13,9 +13,9 @@ import (
 	"github.com/aquasecurity/go-dep-parser/pkg/nuget"
 )
 
-func init() {
-	analyzer.RegisterAnalyzer(&nugetLibraryAnalyzer{})
-}
+//func init() {
+//	analyzer.RegisterAnalyzer(&nugetLibraryAnalyzer{})
+//}
 
 const version = 1
 

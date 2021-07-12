@@ -13,9 +13,9 @@ import (
 	"github.com/aquasecurity/go-dep-parser/pkg/gomod"
 )
 
-func init() {
-	analyzer.RegisterAnalyzer(&gomodAnalyzer{})
-}
+//func init() {
+//	analyzer.RegisterAnalyzer(&gomodAnalyzer{})
+//}
 
 const version = 1
 

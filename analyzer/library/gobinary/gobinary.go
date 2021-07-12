@@ -11,9 +11,9 @@ import (
 	"github.com/aquasecurity/go-dep-parser/pkg/gobinary"
 )
 
-func init() {
-	analyzer.RegisterAnalyzer(&gobinaryLibraryAnalyzer{})
-}
+//func init() {
+//	analyzer.RegisterAnalyzer(&gobinaryLibraryAnalyzer{})
+//}
 
 const version = 1
 

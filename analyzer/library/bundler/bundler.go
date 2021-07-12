@@ -13,9 +13,9 @@ import (
 	"github.com/aquasecurity/go-dep-parser/pkg/bundler"
 )
 
-func init() {
-	analyzer.RegisterAnalyzer(&bundlerLibraryAnalyzer{})
-}
+//func init() {
+//	analyzer.RegisterAnalyzer(&bundlerLibraryAnalyzer{})
+//}
 
 const version = 1
 

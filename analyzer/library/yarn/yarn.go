@@ -13,9 +13,9 @@ import (
 	"github.com/aquasecurity/go-dep-parser/pkg/yarn"
 )
 
-func init() {
-	analyzer.RegisterAnalyzer(&yarnLibraryAnalyzer{})
-}
+//func init() {
+//	analyzer.RegisterAnalyzer(&yarnLibraryAnalyzer{})
+//}
 
 const version = 1
 

@@ -14,9 +14,9 @@ import (
 	"github.com/aquasecurity/go-dep-parser/pkg/jar"
 )
 
-func init() {
-	analyzer.RegisterAnalyzer(&javaLibraryAnalyzer{})
-}
+//func init() {
+//	analyzer.RegisterAnalyzer(&javaLibraryAnalyzer{})
+//}
 
 const version = 1
 
